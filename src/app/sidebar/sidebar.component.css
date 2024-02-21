@@ -1,0 +1,70 @@
+/* .header {
+  font-family: "Montserrat", sans-serif;
+} */
+.welcome {
+  font-family: "Montserrat", sans-serif;
+}
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: bold;
+}
+.ushuru--main-side-bar {
+  width: 20%; /* Set sidebar width to 20% of the viewport */
+  background-color: rgb(138, 127, 127); /* Set background color */
+  position: fixed; /* Fix the sidebar position */
+  top: 0; /* Align the sidebar to the top */
+  left: 0; /* Align the sidebar to the left */
+  bottom: 0; /* Align the sidebar to the bottom */
+  overflow-y: auto; /* Add vertical scrollbar if needed */
+}
+.ushuru--side--bar {
+  text-decoration: none;
+  display: flex; /* Use flexbox layout */
+  flex-direction: column; /* Display items vertically */
+  font-size: 18px;
+}
+.ushuru--side--bar a:link {
+  text-decoration: none;
+  color: #28282b;
+}
+.ushuru--side--bar:visited {
+  color: #1098ad;
+}
+.ushuru--side--bar a:hover {
+  color: rgb(48, 48, 110);
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.ushuru--side--bar a:active {
+  background-color: black;
+  font-style: italic;
+}
+.ushuru--side--bar .icon-text-container {
+  display: flex;
+  align-items: center; /* Align items vertically */
+}
+.icon {
+  width: 16px; /* Set icon width */
+  height: 15px; /* Set icon height */
+  margin-right: 8px; /* Adjust margin as needed */
+}
+.kraLogo {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ushuru-logo {
+  top: 0; /* Align to the top of the page */
+  left: 0;
+  width: 100%; /* Set sidebar width to 20% of the viewport */
+  height: 10%;
+  background-color: #333;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}

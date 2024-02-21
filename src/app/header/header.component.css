@@ -1,0 +1,24 @@
+.ushuru-top-header {
+  top: 0%;
+  height: 110px; /* Set header height */
+  background-color: #426c51;
+  width: -20%;
+  display: flex; /* Use flexbox layout */
+  justify-content: space-between; /* Align items horizontally */
+  align-items: center; /* Align items vertically */
+  padding: 0 20px;
+}
+.user-image {
+  align-items: right;
+}
+.user-picture {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  /* top: 0;
+  right: 0; */
+}
+.user-image {
+  position: relative;
+  display: inline-block;
+}

@@ -1,0 +1,41 @@
+<div class="ushuru--main-side-bar">
+  <div class="ushuru--sidebar--nav">
+    <div class="ushuru-logo">
+      <img [src]="images.pImage" class="kraLogo" />
+    </div>
+    <div class="header">
+      <!-- <h1>Ushuru Smart</h1> -->
+      <p class="welcome">
+        Welcome, <strong>{{ name }}</strong>
+      </p>
+    </div>
+  </div>
+  <!-- Added closing tag -->
+  <!-- made changes on .ts by creating an array to make it dynamic -->
+  <!-- <div class="ushuru--side--bar">
+    <p class="dashboard">Dashboard</p>
+    <a href="#">User Management</a><br />
+    <a href="#">ETR</a>
+    <br />
+    <a href="#">Tax Payment</a>
+    <br />
+    <a href="#">Tax History</a>
+    <br />
+    <a href="#">Settings</a>
+    <br />
+    <a href="#">Log Out</a>
+  </div> -->
+  <!-- <div class="ushuru--side--bar">
+    <a *ngFor="let item of sidebarItems" [href]="item.link" icon="item.icon">
+      {{ item.label }}</a
+    >
+  </div> -->
+
+  <div class="ushuru--side--bar">
+    <a *ngFor="let item of sidebarItems" [href]="item.link">
+      <img src="{{ item.iconPath }}" alt="{{ item.label }}" class="icon" />
+      <!-- Use icon path -->
+      <span>{{ item.label }}</span>
+    </a>
+  </div>
+</div>
